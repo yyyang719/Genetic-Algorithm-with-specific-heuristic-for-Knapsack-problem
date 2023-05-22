@@ -1,3 +1,8 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+from Knapsack import Knapsack
+
 def main():
     # setting parameters
     weight_for_box = [20, 30, 60, 90, 50, 70, 30, 30, 70, 20, 20, 60] # weight for each item
